@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DeBank ref share",
+  "version": "1.0",
+  "description": "Copy current tab's URL with timestamp and referral link.",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "icons/32.png",
+    "72": "icons/72.png",
+    "128": "icons/128.png",
+    "512": "icons/512.png"
+  }
+}
